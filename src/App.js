@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Typography from '@mui/material/Typography'
+import { LineChart } from './LineChart';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Typography variant="h2" color="initial">Hello World!</Typography>
+    <div style={{
+      width:'80vw',
+      height:'30vh'
+    }}>
+    <LineChart/>
+    </div>
     </div>
   );
 }
