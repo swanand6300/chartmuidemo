@@ -6,7 +6,7 @@ import { LineChart } from './LineChart';
 function App() {
   return (
     <div className="App">
-    <Typography variant="h2" color="initial">Hello World!</Typography>
+    <Typography variant="h2" color="initial">Example Line Chart</Typography>
     <div style={{
       width:'80vw',
       height:'30vh'
